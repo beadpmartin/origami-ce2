@@ -1,0 +1,522 @@
+/* RESET & GLOBAL */
+* { margin: 0; padding: 0; box-sizing: border-box }
+body { font-family: Roboto; line-height: 1.25; }
+
+
+
+
+/* NAVBAR */
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 24px;
+	background-color: white;
+}
+
+.navlinks a{
+	padding: 16px 24px;
+	background: #D68189;
+	color: white;
+	text-decoration: none;
+	border-radius: 12px;
+	margin: 9px;
+	
+	align-self: bottom;
+	display: inline-flex
+}
+
+.brand img { width: 350px }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================================================================
+   HOME PAGE
+   ======================================================================== */
+
+/* ==============================
+   1: INTRO
+   ============================== */
+.home-intro {
+	max-width: 1025px;
+	margin: 40px auto;
+	text-align: center;
+}
+
+.home-intro h1 {
+	font-family: Aubrey;
+	font-size: 40px;
+}
+
+.home-intro p {
+	font-family: Roboto;
+	padding-top: 25px;
+	font-size: 16px;
+	text-align: left;
+}
+
+
+
+
+
+/* ==============================
+   2: FEATURED LESSON
+   ============================== */
+.featured-lesson {
+	background-color: #EEEBE6;
+	margin: 40px auto;
+	padding-bottom: 100px;
+	display: flow-root;
+}
+
+.featured-container {
+	max-width: 1025px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.featured-lesson h2 {
+	font-size: 25px;
+	padding-top: 80px;
+	padding-bottom: 5px;
+	letter-spacing: 25px;
+}
+
+.featured-lesson img {
+	display: block;
+	margin: 20px auto;
+	border-radius: 10px;
+	margin-bottom: 30px;
+}
+
+
+
+
+
+/* 2.1: INSTRUCTIONS */
+.lesson-bottom {
+	max-width: auto;
+	display: flex;
+	text-align: left
+}
+
+.lesson-details {
+	flex: 1.75;
+	background-color: #EEEBE6;
+	padding-right: 20px
+}
+
+.lesson-description {
+	margin-top: 10px;
+	text-align: left;
+}
+
+.lesson-title {
+	margin-top: 20px;
+	margin-bottom: 20px
+}
+
+.lesson-steps {
+	margin-left: 40px;
+	margin-bottom: 20px
+}
+
+
+
+
+
+/* 2.2: ENROLL */
+.enroll-box {
+	flex: 0.75;
+	background-color: #C6A49A;
+	color: white;
+	text-align: center;
+	border-radius: 10px;
+	padding: 30px;
+}
+
+.price-circle {
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+  
+	background-color: #E3CFB4;
+	color: #E94E77;
+	font-size: 30px;
+	font-weight: bold;
+  
+	margin: 10px;
+	border: 3px solid white;
+  
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  
+	margin: 20px auto;
+}
+
+.enroll-box h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.btn-enroll {
+	margin-top: 10px;
+	padding: 10px 14px;
+	border: none;
+	border-radius: 10px;
+	background: #E94E77;
+	color: #fff;
+	cursor: pointer;
+}
+
+
+
+
+
+/* ==============================
+   3: passage
+   ============================== */
+.passage {
+	max-width: 1025px;
+	margin: 40px auto;
+  
+	background-color: white;
+	font-family: Roboto;
+	
+	font-size: 16px;
+	text-align: left;
+}
+
+
+
+
+
+/* ==============================
+   4: MASTERCLASS LESSONS
+   ============================== */
+.masterclass-lesson {
+	background-color: #EEEBE6;
+	text-align: center;
+	padding-bottom: 125px;
+
+}
+
+.masterclass-lesson h2 {
+	font-size: 25px;
+	padding-top: 80px;
+	padding-bottom: 5px;
+	letter-spacing: 25px;
+}
+
+.masterclass-lesson p {
+	font-family: Roboto;
+}
+
+.container {
+	display: flex;
+	max-width: 1025px;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	gap: 15px;
+}
+
+.card{
+	background-color: white;
+	margin-top: 25px;
+	padding: 10px;
+	border-radius: 8px;
+    max-width: 240px;
+	
+	display: flex;
+	flex: 1 1 200px; 
+    flex-direction: column;
+}
+
+.card img {
+	width: 100%;
+	padding: px;
+	border-radius: 8px;
+}
+
+.card h3{
+	padding: 15px
+}
+
+p.card-description {
+	padding-bottom: 30px;
+	text-align: left
+}
+
+.subitem {
+	background-color: #E94E77;
+	border-radius: 8px;
+	padding: 10px;
+	width: 100px;
+	
+	margin-top: auto; 
+    align-self: flex-start;
+	margin-bottom: 20px;
+}
+
+.rate {
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.skill {
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   ABOUT PAGE
+   ========================================= */
+   
+/* ==============================
+   1: INTRO
+   ============================== */
+.about-intro {
+	max-width: 100%;
+	color: white;
+	
+	/* pattern */
+	background-image: url('../bg-tile-dark.png'); 
+	background-repeat: repeat;
+	background-size: 150px;
+	background-position: center;
+	background-color: #C6A49A;
+}
+
+.about-intro h1 {
+	font-family: Roboto;
+	font-size: 40px;
+	padding: 40px;
+}
+
+
+
+
+
+/* ==============================
+   2: ORIGAMI MASTERS
+   ============================== */
+.origami-masters {
+	text-align: center;
+	padding: 80px 0 120px 0;
+}
+
+.origami-container {
+	display: flex;
+	max-width: 1025px;
+	margin: 40px auto 0 auto;
+	justify-content: center;
+	gap: 60px;
+}
+
+.origami-masters .card {
+	background: none !important;
+	box-shadow: none !important;
+	margin-top: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.origami-masters .card img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.origami-masters h2 {
+	font-size: 25px;
+	padding-bottom: 5px;
+	letter-spacing: 25px;
+}
+
+.origami-masters .card h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+
+
+
+
+/* ==============================
+   3: SCHOOL MASTERS
+   ============================== */
+.school-masters {
+	background-color: #EEEBE6;
+	text-align: center;
+	padding: 80px 0;
+}
+
+.school-container h2 {
+	font-size: 25px;
+	padding-bottom: 5px;
+	letter-spacing: 25px;
+}
+
+.masters-layout {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start; 
+	gap: 100px;               
+	margin-top: 40px;
+}
+
+
+
+
+
+/* 3.1: HEADMASTER */
+.headmaster-card {
+	text-align: center;
+	max-width: 350px;
+	background: none !important;
+	box-shadow: none !important;
+}
+
+.headmaster-card img {
+	width: 100%;
+	border-radius: 20px;
+	display: block; 
+	margin-bottom: 10px;
+}
+
+.headmaster-card h3 {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	line-height: 1.2;
+}
+
+.card-description {
+	text-align: center;
+	margin: 0 auto;
+	background: none !important;
+	box-shadow: none !important;
+	font-size: 14px;
+}
+
+
+
+
+
+/* 3.2: LESSONMASTERS */
+.masters-grid {
+	display: flex;
+	flex-wrap: wrap;
+	width: 450px;
+	align-items: flex-start;
+}
+
+.circle-card {
+	width: 200px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+	background: none !important;
+	box-shadow: none !important;
+}
+
+.circle-card img {
+	width: 100px;         
+	height: 100px;        
+	border-radius: 50%;   
+	object-fit: cover;
+	
+	margin-bottom: 10px;
+	padding: 0;
+}
+
+.circle-card h3 {
+	font-size: 16px;
+	line-height: 1.5;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.lessonmaster-description {
+	font-size: 14px;
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+.footer {
+	background-color: #C6A49A;
+	padding: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo-text-group {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+
+.footer img {
+	width: 250px;
+	display: block;
+}
+
+.copyright-stack {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+}
+
+.copyright {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+.designer {
+	margin: 0;
+	text-align: right;
+	font-size: 14px;
+}
